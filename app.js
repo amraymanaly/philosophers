@@ -12,8 +12,9 @@
   const ORDER = [];
   for (let r = 0; r < PER_AXIS; r++) for (let a = 0; a < N_AXES; a++) ORDER.push(a * PER_AXIS + r);
 
-  const state = { pos: 0, answers: new Array(QUESTIONS.length).fill(null) };
+  const state = { pos: 0, answers: new Array(QUESTIONS.length).fill(null), mode: "short" };
   let lastScores = null;
+  let lastMode = "short";
   const activeSchools = new Set(["analytic", "post-analytic", "modern", "ancient", "medieval", "continental", "living"]);
 
   function show(name) {
@@ -51,13 +52,29 @@
   const st = $("stat-thinkers");
   if (st) st.textContent = PHILOSOPHERS.length;
 
+  // ---- wording mode (concise default) ----
+  function setMode(m) {
+    state.mode = m;
+    const s = m === "short", f = m === "full";
+    $("mode-short").classList.toggle("on", s);
+    $("mode-full").classList.toggle("on", f);
+    $("mode-short").setAttribute("aria-checked", s ? "true" : "false");
+    $("mode-full").setAttribute("aria-checked", f ? "true" : "false");
+  }
+  $("mode-short").addEventListener("click", () => setMode("short"));
+  $("mode-full").addEventListener("click", () => setMode("full"));
+  setMode("short");
+
   function save() {
-    try { localStorage.setItem(LS_KEY, JSON.stringify({ answers: state.answers, pos: state.pos })); } catch (_) {}
+    try { localStorage.setItem(LS_KEY, JSON.stringify({ answers: state.answers, pos: state.pos, mode: state.mode })); } catch (_) {}
   }
   function load() {
     try {
       const d = JSON.parse(localStorage.getItem(LS_KEY));
-      if (d && Array.isArray(d.answers) && d.answers.length === QUESTIONS.length) return d;
+      if (d && Array.isArray(d.answers) && d.answers.length === QUESTIONS.length) {
+        if (!d.mode) d.mode = "full"; // saves from before the concise mode existed
+        return d;
+      }
     } catch (_) {}
     return null;
   }
@@ -66,7 +83,7 @@
     const d = load();
     const has = d && d.pos > 0 && d.pos < ORDER.length;
     $("btn-resume").classList.toggle("hidden", !has);
-    if (has) $("btn-resume").textContent = `Resume (Q ${d.pos + 1}/${ORDER.length})`;
+    if (has) $("btn-resume").textContent = `Resume (${d.mode === "short" ? "concise" : "full"} · Q ${d.pos + 1}/${ORDER.length})`;
   }
   refreshResume();
 
@@ -78,6 +95,7 @@
   $("btn-resume").addEventListener("click", () => {
     const d = load(); if (!d) return;
     state.answers = d.answers; state.pos = d.pos;
+    setMode(d.mode || "full");
     renderQ(); show("quiz");
   });
 
@@ -112,7 +130,8 @@
   }
 
   function renderQ() {
-    const q = QUESTIONS[ORDER[state.pos]];
+    const qi = ORDER[state.pos];
+    const q = QUESTIONS[qi];
     const ax = AXES[q.axis];
     document.querySelectorAll(".axis-dot.picked").forEach((b) => b.classList.remove("picked"));
     $("q-counter").textContent = `Question ${state.pos + 1}/${ORDER.length}`;
@@ -121,7 +140,8 @@
     const qp = $("q-pct");
     if (qp) qp.textContent = `${pct}%`;
     $("q-axis").textContent = `${ax.tag} · ${q.axis + 1}/${N_AXES}`;
-    $("q-text").textContent = q.text;
+    $("q-text").textContent = state.mode === "short" && typeof SHORT_TEXTS !== "undefined"
+      ? SHORT_TEXTS[qi] : q.text;
     $("btn-back").style.visibility = state.pos === 0 ? "hidden" : "visible";
   }
 
@@ -143,7 +163,8 @@
 
   function finish() {
     lastScores = scoreAll(state.answers);
-    history.replaceState(null, "", `${location.pathname}?v=3&s=${lastScores.join(",")}`);
+    lastMode = state.mode;
+    history.replaceState(null, "", `${location.pathname}?v=4&m=${lastMode}&s=${lastScores.join(",")}`);
     renderResults(lastScores);
     show("results");
   }
@@ -177,6 +198,8 @@
     const strong = scores.filter((s) => s >= 65 || s <= 35).length;
     const rs = $("results-summary");
     if (rs) rs.textContent = `${strong}/${N_AXES} axes with a firm lean · tap a card for its question`;
+    const mb = $("mode-badge");
+    if (mb) mb.textContent = lastMode === "short" ? "concise wording" : "full wording";
 
     $("bars").innerHTML = AXES.map((ax, i) => {
       const L = scores[i], R = 100 - L;
@@ -379,7 +402,7 @@
     });
     y += 10;
     c.fillStyle = mut; c.font = "20px Georgia, serif";
-    c.fillText("18 axes · analytic philosophy · results encoded in the share URL", pad, y);
+    c.fillText(`18 axes · ${lastMode === "short" ? "concise" : "full"} wording · results encoded in the share URL`, pad, y);
     c.fillText(location.href, pad, y + 28);
     cv.toBlob((b) => {
       const a = document.createElement("a");
@@ -413,17 +436,19 @@
     catch (_) { $("copy-hint").textContent = "Copy this URL: " + location.href; }
   });
 
-  // ---- deep link: ?v=3&s=… (v1: 12 values → pad 6×50) ----
+  // ---- deep link: ?v=4&m=short|full&s=… (v3: no m → full; v1: 12 values → pad 6×50) ----
   (function init() {
-    const m = new URLSearchParams(location.search).get("s");
+    const params = new URLSearchParams(location.search);
+    const m = params.get("s");
     if (!m) return;
     let scores = m.split(",").map(Number);
     if (!scores.every((n) => Number.isFinite(n) && n >= 0 && n <= 100)) return;
     if (scores.length === 12) scores = scores.concat(new Array(N_AXES - 12).fill(50));
     if (scores.length !== N_AXES) return;
+    lastMode = params.get("m") === "short" ? "short" : "full";
     renderResults(scores);
     show("results");
   })();
 
-  window.__quiz = { scoreAll, matchPhilosophers, state, ORDER };
+  window.__quiz = { scoreAll, matchPhilosophers, state, ORDER, setMode };
 })();

@@ -28,9 +28,20 @@
           <p class="kicker">Analytic philosophy · self-portrait</p>
           <h2>What kind of philosopher are you?</h2>
           <p id="quiz-meta" class="meta"></p>
-          <p class="lede">Answer the statements honestly — there are no right answers.
+           <p class="lede">Answer the statements honestly — there are no right answers.
+             Pick <strong>concise</strong> (short &amp; punchy, default) or
+             <strong>full</strong> (elaborated cases) wording — same 144 questions,
+             same scoring either way.
              You'll get a score per axis, an archetype, your closest philosophers
              (with <em>why</em> they match), and a reading list.</p>
+          <div class="mode-row" role="radiogroup" aria-label="Question wording">
+            <button id="mode-short" class="mode-btn on" role="radio" aria-checked="true">
+              <strong>Concise</strong><span>short &amp; punchy · default</span>
+            </button>
+            <button id="mode-full" class="mode-btn" role="radio" aria-checked="false">
+              <strong>Full</strong><span>elaborated cases</span>
+            </button>
+          </div>
           <div class="row">
             <button id="btn-start" class="btn btn-primary">Start the Quiz</button>
             <button id="btn-resume" class="btn hidden">Resume</button>
@@ -46,7 +57,10 @@
       <details class="method">
         <summary>Methodology &amp; sources</summary>
         <p>Each axis is scored <code>left% = (Σ ± answer + 2n) / 4n × 100</code> over
-           balanced-pro-polarity Likert items (+2…−2). Philosopher match is nearest
+           balanced-pro-polarity Likert items (+2…−2). Two wordings are offered —
+           <strong>concise</strong> (default) and <strong>full</strong>: same 144 items
+           in the same order with the same axes and polarities, only the phrasing differs.
+           Philosopher match is nearest
            neighbour by Euclidean distance over all axes, converted to a similarity %.
            Vectors are approximate portraits — disputable, for fun.
            Full documentation (axes, all questions, every philosopher profile,
@@ -102,6 +116,10 @@
     <div class="card results-card">
       <div class="section-head split">
         <h2>Your Results</h2>
+        <span class="mode-badge" id="mode-badge"></span>
+      </div>
+      <div class="section-head split sub">
+        <span></span>
         <span id="results-summary" class="hint"></span>
       </div>
       <div class="results-top">

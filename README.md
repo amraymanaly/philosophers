@@ -10,7 +10,9 @@ Static site, no build step, no backend. Open `index.html` via any static server:
 npx serve .
 ```
 
-Results are encoded in a shareable `?v=3&s=…` URL. Progress autosaves to `localStorage`.
+Results are encoded in a shareable `?v=4&m=short|full&s=…` URL (older `?s=…` links still work). Progress autosaves to `localStorage`.
+
+Two wordings: **concise** (short & punchy, default) and **full** (elaborated cases) — same 144 questions, order, axes, and polarities; only phrasing differs.
 
 ## Files
 

@@ -78,205 +78,349 @@ Domain tag: Progress. Do philosophy and science converge on truth, or recycle ol
 
 Domain tag: Mathematics. Do numbers exist independently, or is mathematics a formal game?
 
-## 2. Questions (144)
+## 2. Questions (144 per wording)
 
 ### Realism <-> Anti-Realism (axis 0, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Dinosaurs had bones with determinate shapes millions of years before any observer existed to conceptualize them.
-- [pro-LEFT] An unproven conjecture (say, Goldbach's) could be true even if humans never develop any way to verify it.
-- [pro-RIGHT] Whether a forest is one object or many trees reflects our classificatory interests more than mind-independent joints.
-- [pro-RIGHT] The line between discovering a fact and inventing a framework (in taxonomy or physics) is blurrier than realists admit.
-- [pro-LEFT] Successive theories (Newton to Einstein) succeed because each approximates the same mind-independent structure ever more closely.
-- [pro-LEFT] An unobserved supernova in a distant galaxy has exactly one determinate outcome, whether or not any instrument records it.
-- [pro-RIGHT] Whether a cloud, a wave, or a nation is 'an object' has no determinate answer apart from our counting practices.
-- [pro-RIGHT] Since rival, equally successful descriptions (wave vs. matrix mechanics) coexist, there is no single true structure behind them.
+- [pro-LEFT] FULL: Dinosaurs had bones with determinate shapes millions of years before any observer existed to conceptualize them.
+  - SHORT: Dinosaur bones had determinate shapes before any mind existed.
+- [pro-LEFT] FULL: An unproven conjecture (say, Goldbach's) could be true even if humans never develop any way to verify it.
+  - SHORT: An unprovable conjecture could still be true.
+- [pro-RIGHT] FULL: Whether a forest is one object or many trees reflects our classificatory interests more than mind-independent joints.
+  - SHORT: Whether a forest is one thing or many trees is up to our classifications.
+- [pro-RIGHT] FULL: The line between discovering a fact and inventing a framework (in taxonomy or physics) is blurrier than realists admit.
+  - SHORT: Discovery and invention blur together more than realists admit.
+- [pro-LEFT] FULL: Successive theories (Newton to Einstein) succeed because each approximates the same mind-independent structure ever more closely.
+  - SHORT: New theories succeed by approximating the same mind-independent structure.
+- [pro-LEFT] FULL: An unobserved supernova in a distant galaxy has exactly one determinate outcome, whether or not any instrument records it.
+  - SHORT: An unobserved supernova has one determinate outcome.
+- [pro-RIGHT] FULL: Whether a cloud, a wave, or a nation is 'an object' has no determinate answer apart from our counting practices.
+  - SHORT: Clouds and nations are objects only relative to our counting.
+- [pro-RIGHT] FULL: Since rival, equally successful descriptions (wave vs. matrix mechanics) coexist, there is no single true structure behind them.
+  - SHORT: Rival but equally successful theories show there is no single true structure.
 
 ### Physicalism <-> Dualism (axis 1, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] In principle, a completed neuroscience mapping every neural process would leave no aspect of consciousness unexplained.
-- [pro-LEFT] Replicating your brain's functional organization exactly in silicon would reproduce your conscious experiences.
-- [pro-RIGHT] Knowing every physical fact about color vision (wavelengths, neurons) still would not tell a lifelong-blind physicist what red looks like.
-- [pro-RIGHT] A being could behave exactly as you do in every situation yet have no inner experience at all — and that refutes physicalism.
-- [pro-LEFT] Each type of mental state (believing it will rain, feeling pain) is nothing over and above a type of brain state.
-- [pro-LEFT] Gradually replacing your neurons one by one with functionally identical artificial ones would preserve your consciousness throughout.
-- [pro-RIGHT] The felt hurtfulness of pain is a further fact that no description of firing neurons, however complete, captures.
-- [pro-RIGHT] Because a philosophical zombie (physically identical, experientially blank) is coherently conceivable, physics cannot be the whole story about mind.
+- [pro-LEFT] FULL: In principle, a completed neuroscience mapping every neural process would leave no aspect of consciousness unexplained.
+  - SHORT: Complete neuroscience would explain every aspect of consciousness.
+- [pro-LEFT] FULL: Replicating your brain's functional organization exactly in silicon would reproduce your conscious experiences.
+  - SHORT: A silicon copy of your brain would feel what you feel.
+- [pro-RIGHT] FULL: Knowing every physical fact about color vision (wavelengths, neurons) still would not tell a lifelong-blind physicist what red looks like.
+  - SHORT: No physical facts teach a blind physicist what red looks like.
+- [pro-RIGHT] FULL: A being could behave exactly as you do in every situation yet have no inner experience at all — and that refutes physicalism.
+  - SHORT: Perfect behavior without inner experience is possible — and refutes physicalism.
+- [pro-LEFT] FULL: Each type of mental state (believing it will rain, feeling pain) is nothing over and above a type of brain state.
+  - SHORT: Mental states are nothing over and above brain states.
+- [pro-LEFT] FULL: Gradually replacing your neurons one by one with functionally identical artificial ones would preserve your consciousness throughout.
+  - SHORT: Replacing neurons with chips one by one would preserve consciousness.
+- [pro-RIGHT] FULL: The felt hurtfulness of pain is a further fact that no description of firing neurons, however complete, captures.
+  - SHORT: Pain's hurtfulness escapes every neural description.
+- [pro-RIGHT] FULL: Because a philosophical zombie (physically identical, experientially blank) is coherently conceivable, physics cannot be the whole story about mind.
+  - SHORT: Conceivable zombies (physical duplicates, no experience) refute physicalism.
 
 ### Essentialism <-> Nominalism (axis 2, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] 'Water is H2O' is no convention: a superficially identical liquid with different microstructure (XYZ) would not be water at all.
-- [pro-LEFT] At least some scientific categories (electrons, gold) latch onto divisions that nature itself draws, not ones we impose.
-- [pro-RIGHT] 'Redness' names no universal entity; it merely groups things we have learned to call by one word.
-- [pro-RIGHT] Pluto's demotion shows it: 'natural kind' boundaries track scientific convenience more than hidden essences.
-- [pro-LEFT] Two samples can share a hidden constitution that makes them the same kind even when all surface appearances differ.
-- [pro-LEFT] Laws of nature hold because things have intrinsic dispositions (charge attracts opposite charge), not because we summarize observations.
-- [pro-RIGHT] Biological species are populations with fuzzy edges; 'tigerhood' names a convenient cluster, not an essence.
-- [pro-RIGHT] There are only particular red things; postulate no extra entity — 'the universal redness' — over and above them.
+- [pro-LEFT] FULL: 'Water is H2O' is no convention: a superficially identical liquid with different microstructure (XYZ) would not be water at all.
+  - SHORT: 'Water is H2O': an identical-looking XYZ liquid would not be water.
+- [pro-LEFT] FULL: At least some scientific categories (electrons, gold) latch onto divisions that nature itself draws, not ones we impose.
+  - SHORT: Some categories (electrons, gold) cut nature at its joints.
+- [pro-RIGHT] FULL: 'Redness' names no universal entity; it merely groups things we have learned to call by one word.
+  - SHORT: 'Redness' is just a shared word, not a real entity.
+- [pro-RIGHT] FULL: Pluto's demotion shows it: 'natural kind' boundaries track scientific convenience more than hidden essences.
+  - SHORT: Pluto's demotion shows kinds track convenience, not essences.
+- [pro-LEFT] FULL: Two samples can share a hidden constitution that makes them the same kind even when all surface appearances differ.
+  - SHORT: Things can share a hidden nature despite different appearances.
+- [pro-LEFT] FULL: Laws of nature hold because things have intrinsic dispositions (charge attracts opposite charge), not because we summarize observations.
+  - SHORT: Laws hold because things have real dispositions, not because we summarize data.
+- [pro-RIGHT] FULL: Biological species are populations with fuzzy edges; 'tigerhood' names a convenient cluster, not an essence.
+  - SHORT: Species have fuzzy edges; 'tigerhood' is a convenient cluster.
+- [pro-RIGHT] FULL: There are only particular red things; postulate no extra entity — 'the universal redness' — over and above them.
+  - SHORT: Only particular red things exist — no universal 'redness'.
 
 ### Rationalism <-> Empiricism (axis 3, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Reflection alone can establish substantive necessities — e.g. that nothing can be wholly red and wholly green — with no experiment needed.
-- [pro-LEFT] Mathematical proof yields knowledge of an abstract realm (primes are infinite) that observation of the physical world could never supply.
-- [pro-RIGHT] Every claim going beyond definitions — about minds, morals, or modality — earns credibility only through observation or experiment.
-- [pro-RIGHT] Armchair thought experiments (trolleys, brains in vats) clarify our concepts but teach us nothing new about the world beyond them.
-- [pro-LEFT] Some propositions (logical truths, 'I exist while thinking') are warranted prior to and independently of any sensory evidence.
-- [pro-LEFT] We can know basic moral or modal principles (needless suffering is bad; contradictions are impossible) without running experiments.
-- [pro-RIGHT] Philosophical 'intuitions' vary with culture and framing; only controlled observation should move our credences about reality.
-- [pro-RIGHT] 'A priori knowledge' is a myth: even logic and arithmetic are entrenched empirical generalizations, revisable in light of experience.
+- [pro-LEFT] FULL: Reflection alone can establish substantive necessities — e.g. that nothing can be wholly red and wholly green — with no experiment needed.
+  - SHORT: Pure reflection shows nothing can be wholly red and green — no experiment needed.
+- [pro-LEFT] FULL: Mathematical proof yields knowledge of an abstract realm (primes are infinite) that observation of the physical world could never supply.
+  - SHORT: Proof reveals facts (primes are infinite) observation never could.
+- [pro-RIGHT] FULL: Every claim going beyond definitions — about minds, morals, or modality — earns credibility only through observation or experiment.
+  - SHORT: Beyond definitions, only observation earns credibility.
+- [pro-RIGHT] FULL: Armchair thought experiments (trolleys, brains in vats) clarify our concepts but teach us nothing new about the world beyond them.
+  - SHORT: Thought experiments clarify concepts but teach nothing about the world.
+- [pro-LEFT] FULL: Some propositions (logical truths, 'I exist while thinking') are warranted prior to and independently of any sensory evidence.
+  - SHORT: Some truths ('I exist while thinking') are warranted before any evidence.
+- [pro-LEFT] FULL: We can know basic moral or modal principles (needless suffering is bad; contradictions are impossible) without running experiments.
+  - SHORT: Some moral and modal truths are knowable without experiments.
+- [pro-RIGHT] FULL: Philosophical 'intuitions' vary with culture and framing; only controlled observation should move our credences about reality.
+  - SHORT: Intuitions vary with culture; only observation should move us.
+- [pro-RIGHT] FULL: 'A priori knowledge' is a myth: even logic and arithmetic are entrenched empirical generalizations, revisable in light of experience.
+  - SHORT: 'A priori' is a myth: even logic is entrenched empirical habit.
 
 ### Foundationalism <-> Coherentism (axis 4, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] The regress of reasons must terminate: some beliefs (e.g. 'I am in pain now') are justified directly, not by inference.
-- [pro-LEFT] Perceptual appearances and elementary logical insights confer justification that itself needs no inferential backing.
-- [pro-RIGHT] A theory is justified because it best coheres with our other well-supported beliefs — that holistic fit is the ultimate ground.
-- [pro-RIGHT] Apparently 'basic' beliefs (about the external world, the past) have been revised before and should stay revisable — nothing is bedrock.
-- [pro-LEFT] Without non-inferential starting points, justification would be an infinite regress or a circle — and both are vicious.
-- [pro-LEFT] Skeptical doubts ('maybe I'm dreaming') need positive reasons; until given, foundational certainties legitimately stop the regress.
-- [pro-RIGHT] Even observation reports ('I see red') rely on background theory about lighting, vision, and language — so they are no foundations.
-- [pro-RIGHT] Mutual support among many beliefs can justify each of them, as chair legs jointly hold one another up — circles can be virtuous.
+- [pro-LEFT] FULL: The regress of reasons must terminate: some beliefs (e.g. 'I am in pain now') are justified directly, not by inference.
+  - SHORT: Reasons must bottom out: some beliefs ('I am in pain') need no inference.
+- [pro-LEFT] FULL: Perceptual appearances and elementary logical insights confer justification that itself needs no inferential backing.
+  - SHORT: Perception and basic logic justify directly, without further backing.
+- [pro-RIGHT] FULL: A theory is justified because it best coheres with our other well-supported beliefs — that holistic fit is the ultimate ground.
+  - SHORT: Beliefs are justified by fitting the web — fit is the ultimate ground.
+- [pro-RIGHT] FULL: Apparently 'basic' beliefs (about the external world, the past) have been revised before and should stay revisable — nothing is bedrock.
+  - SHORT: Supposed foundations get revised; nothing is bedrock.
+- [pro-LEFT] FULL: Without non-inferential starting points, justification would be an infinite regress or a circle — and both are vicious.
+  - SHORT: Without starting points, justification is a vicious regress or circle.
+- [pro-LEFT] FULL: Skeptical doubts ('maybe I'm dreaming') need positive reasons; until given, foundational certainties legitimately stop the regress.
+  - SHORT: Doubts need reasons too; foundations rightly stop the regress.
+- [pro-RIGHT] FULL: Even observation reports ('I see red') rely on background theory about lighting, vision, and language — so they are no foundations.
+  - SHORT: Even 'I see red' rests on background theory — no foundations there.
+- [pro-RIGHT] FULL: Mutual support among many beliefs can justify each of them, as chair legs jointly hold one another up — circles can be virtuous.
+  - SHORT: Big enough circles of mutual support can be virtuous.
 
 ### Correspondence <-> Deflationary (axis 5, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] 'Snow is white' is true in virtue of a relation between the sentence and an extra-linguistic condition: snow's being white.
-- [pro-LEFT] Truth is a robust, explanatory property — which is why science aims at it and true beliefs guide action better than false ones.
-- [pro-RIGHT] To assert ''snow is white' is true' is just to assert that snow is white in fancier dress — no relation is invoked.
-- [pro-RIGHT] Treating truth as a deep metaphysical relation breeds pseudo-problems; 'true' is a device for endorsing and generalizing claims.
-- [pro-LEFT] Collapsed bridges show false engineering theories fail: they misrepresent how loads and materials actually behave.
-- [pro-LEFT] What makes 'the cat is on the mat' true is specifically the cat's being on the mat — remove that condition and truth vanishes.
-- [pro-RIGHT] Mathematical, moral, and empirical truths have so little in common that no single substantive property of 'truth' unites them.
-- [pro-RIGHT] 'True' functions mainly as a disquotational tool ('everything she said is true') letting us endorse claims we cannot list one by one.
+- [pro-LEFT] FULL: 'Snow is white' is true in virtue of a relation between the sentence and an extra-linguistic condition: snow's being white.
+  - SHORT: 'Snow is white' is true through a relation to snow's being white.
+- [pro-LEFT] FULL: Truth is a robust, explanatory property — which is why science aims at it and true beliefs guide action better than false ones.
+  - SHORT: Truth is a robust property — science aims at it for a reason.
+- [pro-RIGHT] FULL: To assert ''snow is white' is true' is just to assert that snow is white in fancier dress — no relation is invoked.
+  - SHORT: 'It is true that snow is white' just says snow is white, fancier.
+- [pro-RIGHT] FULL: Treating truth as a deep metaphysical relation breeds pseudo-problems; 'true' is a device for endorsing and generalizing claims.
+  - SHORT: Truth as a deep relation breeds pseudo-problems; 'true' endorses claims.
+- [pro-LEFT] FULL: Collapsed bridges show false engineering theories fail: they misrepresent how loads and materials actually behave.
+  - SHORT: Collapsed bridges show false theories misrepresent reality.
+- [pro-LEFT] FULL: What makes 'the cat is on the mat' true is specifically the cat's being on the mat — remove that condition and truth vanishes.
+  - SHORT: The cat's being on the mat is what makes the sentence true.
+- [pro-RIGHT] FULL: Mathematical, moral, and empirical truths have so little in common that no single substantive property of 'truth' unites them.
+  - SHORT: Math, moral, and empirical truths share no single property of 'truth'.
+- [pro-RIGHT] FULL: 'True' functions mainly as a disquotational tool ('everything she said is true') letting us endorse claims we cannot list one by one.
+  - SHORT: 'True' is mainly a tool for endorsing claims we can't list.
 
 ### Truth-Conditional <-> Use Theory (axis 6, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Whoever knows exactly under which conditions 'it is raining' would be true thereby grasps its meaning — truth-conditions are meaning's core.
-- [pro-LEFT] A systematic Tarski-style theory for a language is the right foundation for explaining how we understand novel sentences.
-- [pro-RIGHT] Ask for a word's meaning and look to its role in activities — ordering, joking, promising — not to conditions that would make it true.
-- [pro-RIGHT] Insisting every meaningful sentence has hidden truth-conditions distorts language, forcing declarative shape onto greetings and jokes.
-- [pro-LEFT] If two declarative sentences are true in exactly the same possible circumstances, they share their literal, cognitive meaning.
-- [pro-LEFT] The success of formal semantics in linguistics and logic shows truth-conditions capture something real about linguistic competence.
-- [pro-RIGHT] Slurs wound, performatives marry, expressives vent — none of which is captured by stating when the utterance would be 'true'.
-- [pro-RIGHT] A child masters 'pain' or 'hello' through training into practices — correction, comfort, greeting — not by learning truth-conditions.
+- [pro-LEFT] FULL: Whoever knows exactly under which conditions 'it is raining' would be true thereby grasps its meaning — truth-conditions are meaning's core.
+  - SHORT: Knowing when 'it is raining' would be true is knowing its meaning.
+- [pro-LEFT] FULL: A systematic Tarski-style theory for a language is the right foundation for explaining how we understand novel sentences.
+  - SHORT: A Tarski-style truth theory is the right basis of meaning.
+- [pro-RIGHT] FULL: Ask for a word's meaning and look to its role in activities — ordering, joking, promising — not to conditions that would make it true.
+  - SHORT: Meaning lies in activities — ordering, joking, promising — not truth-conditions.
+- [pro-RIGHT] FULL: Insisting every meaningful sentence has hidden truth-conditions distorts language, forcing declarative shape onto greetings and jokes.
+  - SHORT: Forcing every sentence into truth-conditions distorts greetings and jokes.
+- [pro-LEFT] FULL: If two declarative sentences are true in exactly the same possible circumstances, they share their literal, cognitive meaning.
+  - SHORT: Same truth-conditions means same literal meaning.
+- [pro-LEFT] FULL: The success of formal semantics in linguistics and logic shows truth-conditions capture something real about linguistic competence.
+  - SHORT: Formal semantics' success shows truth-conditions are real.
+- [pro-RIGHT] FULL: Slurs wound, performatives marry, expressives vent — none of which is captured by stating when the utterance would be 'true'.
+  - SHORT: Slurs wound and vows marry — truth-conditions capture none of that.
+- [pro-RIGHT] FULL: A child masters 'pain' or 'hello' through training into practices — correction, comfort, greeting — not by learning truth-conditions.
+  - SHORT: Children learn words through training into practices, not truth-conditions.
 
 ### Scientific Realism <-> Instrumentalism (axis 7, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] We should believe electrons and DNA exist as described, not merely pretend they do while predicting instrument readings.
-- [pro-LEFT] That theories predict entirely novel phenomena (Poisson's spot, the Higgs boson) would be miraculous if they were not approximately true.
-- [pro-RIGHT] Theories are calculating devices: accept that they save the phenomena; belief in quarks or curved spacetime as such is optional.
-- [pro-RIGHT] Since science cannot observe unobservables directly, rationality requires suspending judgment about whether they exist.
-- [pro-LEFT] Converging evidence — microscopes, chemistry, and physics agreeing on molecules — shows science latches onto hidden structure.
-- [pro-LEFT] When a theory's risky prediction comes true (gravitational lensing, novel elements), that success confirms its picture of reality.
-- [pro-RIGHT] Phlogiston, caloric, and the ether were once indispensable posits — today's indispensables deserve the same skepticism.
-- [pro-RIGHT] What matters is empirical adequacy — getting observations right; adding 'and the theory is true' claims an untestable surplus.
+- [pro-LEFT] FULL: We should believe electrons and DNA exist as described, not merely pretend they do while predicting instrument readings.
+  - SHORT: Electrons and DNA exist as described — not as useful fictions.
+- [pro-LEFT] FULL: That theories predict entirely novel phenomena (Poisson's spot, the Higgs boson) would be miraculous if they were not approximately true.
+  - SHORT: Novel predictions (Higgs boson) would be miracles if theories weren't true.
+- [pro-RIGHT] FULL: Theories are calculating devices: accept that they save the phenomena; belief in quarks or curved spacetime as such is optional.
+  - SHORT: Theories are calculating devices; belief in quarks is optional.
+- [pro-RIGHT] FULL: Since science cannot observe unobservables directly, rationality requires suspending judgment about whether they exist.
+  - SHORT: Unobservables can't be observed, so suspend judgment about them.
+- [pro-LEFT] FULL: Converging evidence — microscopes, chemistry, and physics agreeing on molecules — shows science latches onto hidden structure.
+  - SHORT: Independent methods agreeing on molecules shows hidden structure is real.
+- [pro-LEFT] FULL: When a theory's risky prediction comes true (gravitational lensing, novel elements), that success confirms its picture of reality.
+  - SHORT: Risky predictions coming true confirms the theory's picture.
+- [pro-RIGHT] FULL: Phlogiston, caloric, and the ether were once indispensable posits — today's indispensables deserve the same skepticism.
+  - SHORT: Phlogiston and ether were indispensable once — today's posits are suspect too.
+- [pro-RIGHT] FULL: What matters is empirical adequacy — getting observations right; adding 'and the theory is true' claims an untestable surplus.
+  - SHORT: Getting observations right is enough; 'truth' adds nothing testable.
 
 ### Classical Logic <-> Logical Pluralism (axis 8, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Classical first-order logic, with excluded middle, is uniquely correct for all serious reasoning.
-- [pro-LEFT] For any well-formed, precise claim, either it or its negation holds — vagueness and paradox aside, bivalence stands.
-- [pro-RIGHT] Intuitionist, paraconsistent, and classical systems can each be correct relative to different domains (construction, inconsistency, mathematics).
-- [pro-RIGHT] The liar ('this sentence is false') and sorites paradoxes show classical principles must be restricted or abandoned somewhere.
-- [pro-LEFT] Arguments flouting modus ponens or non-contradiction go wrong by logic's own lights — not merely by one optional standard.
-- [pro-LEFT] Borderline cases ('is this man bald?') reflect imprecise language; sharpen the predicate and bivalence is restored.
-- [pro-RIGHT] That 'this man with 1,000 hairs is bald' has no determinate truth-value shows bivalence fails for vague discourse.
-- [pro-RIGHT] Quantum superpositions ('the electron went through both slits') may require abandoning distributive laws classical logic takes as sacrosanct.
+- [pro-LEFT] FULL: Classical first-order logic, with excluded middle, is uniquely correct for all serious reasoning.
+  - SHORT: Classical logic is uniquely correct for all serious reasoning.
+- [pro-LEFT] FULL: For any well-formed, precise claim, either it or its negation holds — vagueness and paradox aside, bivalence stands.
+  - SHORT: Every precise claim is either true or false — bivalence stands.
+- [pro-RIGHT] FULL: Intuitionist, paraconsistent, and classical systems can each be correct relative to different domains (construction, inconsistency, mathematics).
+  - SHORT: Different logics suit different domains: each can be correct.
+- [pro-RIGHT] FULL: The liar ('this sentence is false') and sorites paradoxes show classical principles must be restricted or abandoned somewhere.
+  - SHORT: Liar and sorites paradoxes force restricting classical principles.
+- [pro-LEFT] FULL: Arguments flouting modus ponens or non-contradiction go wrong by logic's own lights — not merely by one optional standard.
+  - SHORT: Flouting modus ponens is mistaken — not just unconventional.
+- [pro-LEFT] FULL: Borderline cases ('is this man bald?') reflect imprecise language; sharpen the predicate and bivalence is restored.
+  - SHORT: Sharpen vague words and bivalence returns.
+- [pro-RIGHT] FULL: That 'this man with 1,000 hairs is bald' has no determinate truth-value shows bivalence fails for vague discourse.
+  - SHORT: 'A 1,000-haired man is bald' has no determinate truth-value.
+- [pro-RIGHT] FULL: Quantum superpositions ('the electron went through both slits') may require abandoning distributive laws classical logic takes as sacrosanct.
+  - SHORT: Quantum phenomena may demand non-classical distributive laws.
 
 ### Modal Realism <-> Actualism (axis 9, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] For every coherent way things could be, there exists a concrete universe — isolated from ours — where things are that way.
-- [pro-LEFT] What makes 'I could have been a doctor' true is not anything here, but a real counterpart of me who is a doctor in another concrete world.
-- [pro-RIGHT] 'Possible worlds' are modeling fictions — like frictionless planes — useful for logicians, not extra universes to believe in.
-- [pro-RIGHT] Possibility claims are ultimately about this world's capacities ('the glass could break' = it is fragile), not other realities.
-- [pro-LEFT] Somewhere in modal space there are concrete planets with purple skies and concrete people who never existed here.
-- [pro-LEFT] 'If dinosaurs had survived, mammals would be small' is true because the nearest concrete dinosaur-surviving worlds are small-mammal worlds.
-- [pro-RIGHT] Abstract representations (sets of sentences, uninstantiated properties) capture all modal truth — no concrete multiverse needed.
-- [pro-RIGHT] Postulating infinitely many concrete universes to explain a single 'could' violates parsimony beyond any theoretical benefit.
+- [pro-LEFT] FULL: For every coherent way things could be, there exists a concrete universe — isolated from ours — where things are that way.
+  - SHORT: Every coherent possibility exists as a concrete, isolated universe.
+- [pro-LEFT] FULL: What makes 'I could have been a doctor' true is not anything here, but a real counterpart of me who is a doctor in another concrete world.
+  - SHORT: 'I could have been a doctor' is true because a counterpart of me is one.
+- [pro-RIGHT] FULL: 'Possible worlds' are modeling fictions — like frictionless planes — useful for logicians, not extra universes to believe in.
+  - SHORT: Possible worlds are modeling fictions, like frictionless planes.
+- [pro-RIGHT] FULL: Possibility claims are ultimately about this world's capacities ('the glass could break' = it is fragile), not other realities.
+  - SHORT: Possibility is about this world's capacities ('the glass is fragile').
+- [pro-LEFT] FULL: Somewhere in modal space there are concrete planets with purple skies and concrete people who never existed here.
+  - SHORT: Somewhere, concrete planets with purple skies really exist.
+- [pro-LEFT] FULL: 'If dinosaurs had survived, mammals would be small' is true because the nearest concrete dinosaur-surviving worlds are small-mammal worlds.
+  - SHORT: Dinosaur-survival counterfactuals are true because of other concrete worlds.
+- [pro-RIGHT] FULL: Abstract representations (sets of sentences, uninstantiated properties) capture all modal truth — no concrete multiverse needed.
+  - SHORT: Abstract representations capture all modal truth — no multiverse needed.
+- [pro-RIGHT] FULL: Postulating infinitely many concrete universes to explain a single 'could' violates parsimony beyond any theoretical benefit.
+  - SHORT: Infinite concrete universes for one 'could' violates parsimony.
 
 ### Moral Realism <-> Moral Anti-Realism (axis 10, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Torturing children for fun would be wrong even in a culture that unanimously approved of it — approval tracks, not constitutes, wrongness.
-- [pro-LEFT] Abolitionists made moral discoveries (slavery's wrongness), not mere taste-changes; moral inquiry has a success logic like science's.
-- [pro-RIGHT] 'Stealing is wrong' primarily voices disapproval ('boo, stealing!') rather than stating a fact — emotivism gets the semantics right.
-- [pro-RIGHT] Because no moral properties figure in our best causal explanations, every positive moral claim is strictly false.
-- [pro-LEFT] Across cultures, prohibitions on murder and norms of reciprocity recur because they track objective moral constraints.
-- [pro-LEFT] Moral properties (wrongness, goodness) arise from natural facts (pain, fairness) while remaining irreducible to them.
-- [pro-RIGHT] Persistent, faultless disagreement (over abortion, meat, honor) suggests moral judgments project attitudes rather than detect facts.
-- [pro-RIGHT] Evolutionary pressures fully explain why we moralize (cooperation paid off) without needing any moral facts to make those beliefs true.
+- [pro-LEFT] FULL: Torturing children for fun would be wrong even in a culture that unanimously approved of it — approval tracks, not constitutes, wrongness.
+  - SHORT: Torturing children for fun would be wrong even if everyone approved.
+- [pro-LEFT] FULL: Abolitionists made moral discoveries (slavery's wrongness), not mere taste-changes; moral inquiry has a success logic like science's.
+  - SHORT: Abolitionists discovered slavery's wrongness — moral inquiry succeeds like science.
+- [pro-RIGHT] FULL: 'Stealing is wrong' primarily voices disapproval ('boo, stealing!') rather than stating a fact — emotivism gets the semantics right.
+  - SHORT: 'Stealing is wrong' voices disapproval ('boo!'), not fact.
+- [pro-RIGHT] FULL: Because no moral properties figure in our best causal explanations, every positive moral claim is strictly false.
+  - SHORT: Moral properties explain nothing, so all positive moral claims are false.
+- [pro-LEFT] FULL: Across cultures, prohibitions on murder and norms of reciprocity recur because they track objective moral constraints.
+  - SHORT: Recurring bans on murder track objective constraints.
+- [pro-LEFT] FULL: Moral properties (wrongness, goodness) arise from natural facts (pain, fairness) while remaining irreducible to them.
+  - SHORT: Moral properties arise from natural facts but don't reduce to them.
+- [pro-RIGHT] FULL: Persistent, faultless disagreement (over abortion, meat, honor) suggests moral judgments project attitudes rather than detect facts.
+  - SHORT: Faultless moral disagreement suggests projection, not detection.
+- [pro-RIGHT] FULL: Evolutionary pressures fully explain why we moralize (cooperation paid off) without needing any moral facts to make those beliefs true.
+  - SHORT: Evolution explains moralizing fully — no moral facts needed.
 
 ### Consequentialism <-> Deontology (axis 11, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] An act is right exactly insofar as its total consequences are better than any alternative's — outcomes are what ultimately matter.
-- [pro-LEFT] A rule (never lie, never break promises) should be set aside whenever breaking it foreseeably saves significantly more lives.
-- [pro-RIGHT] Pushing one innocent person off a bridge to stop a trolley remains wrong even when it maximizes lives saved.
-- [pro-RIGHT] Harvesting one healthy patient to save five wrongs that patient regardless of the net gain — persons are not mere means.
-- [pro-LEFT] When forced to choose, diverting the trolley to kill one instead of five is not just permissible but required — numbers decide.
-- [pro-LEFT] Duties and rights are useful rules of thumb distilled from what generally maximizes welfare; they carry no independent authority against it.
-- [pro-RIGHT] Rights against torture or enslavement constrain the pursuit of the good: they may not be infringed even for large social benefits.
-- [pro-RIGHT] An action done from duty — keeping a costly promise because it was promised — can be morally better than a luckier act with better results.
+- [pro-LEFT] FULL: An act is right exactly insofar as its total consequences are better than any alternative's — outcomes are what ultimately matter.
+  - SHORT: An act is right exactly insofar as its consequences are best.
+- [pro-LEFT] FULL: A rule (never lie, never break promises) should be set aside whenever breaking it foreseeably saves significantly more lives.
+  - SHORT: Break a rule whenever doing so foreseeably saves more lives.
+- [pro-RIGHT] FULL: Pushing one innocent person off a bridge to stop a trolley remains wrong even when it maximizes lives saved.
+  - SHORT: Pushing one off a bridge to save five stays wrong.
+- [pro-RIGHT] FULL: Harvesting one healthy patient to save five wrongs that patient regardless of the net gain — persons are not mere means.
+  - SHORT: Harvesting one patient to save five wrongs them, whatever the gain.
+- [pro-LEFT] FULL: When forced to choose, diverting the trolley to kill one instead of five is not just permissible but required — numbers decide.
+  - SHORT: Diverting the trolley to kill one instead of five is required.
+- [pro-LEFT] FULL: Duties and rights are useful rules of thumb distilled from what generally maximizes welfare; they carry no independent authority against it.
+  - SHORT: Duties are rules of thumb from what maximizes welfare — no independent authority.
+- [pro-RIGHT] FULL: Rights against torture or enslavement constrain the pursuit of the good: they may not be infringed even for large social benefits.
+  - SHORT: Rights against torture constrain the good — no infringing for benefits.
+- [pro-RIGHT] FULL: An action done from duty — keeping a costly promise because it was promised — can be morally better than a luckier act with better results.
+  - SHORT: Acting from duty can beat luckier acts with better results.
 
 ### Libertarian Free Will <-> Compatibilism (axis 12, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] At least sometimes, holding fixed the entire past and the laws, more than one future remains genuinely open to an agent.
-- [pro-LEFT] If every choice were fixed by events before your birth, you would not be free in the sense responsibility requires.
-- [pro-RIGHT] To act freely is to act on your own beliefs and desires without coercion — a condition fully compatible with those attitudes being caused.
-- [pro-RIGHT] 'She could have done otherwise' means 'she would have, had she wanted to' — not that the past left alternatives open.
-- [pro-LEFT] Responsibility requires being the ultimate source of your actions, not merely the conduit through which prior causes flow.
-- [pro-LEFT] Whether an act is free depends on agent-causation — the agent as irreducible originator — which no neural history could capture.
-- [pro-RIGHT] An agent whose every decision is in principle predictable from prior states can still be fully free and accountable.
-- [pro-RIGHT] Once 'free' is understood as 'uncoerced and responsive to reasons' rather than 'uncaused', the traditional problem dissolves.
+- [pro-LEFT] FULL: At least sometimes, holding fixed the entire past and the laws, more than one future remains genuinely open to an agent.
+  - SHORT: Sometimes more than one future is genuinely open, past and laws fixed.
+- [pro-LEFT] FULL: If every choice were fixed by events before your birth, you would not be free in the sense responsibility requires.
+  - SHORT: If choices were fixed before your birth, you aren't responsible.
+- [pro-RIGHT] FULL: To act freely is to act on your own beliefs and desires without coercion — a condition fully compatible with those attitudes being caused.
+  - SHORT: Freedom is acting on your desires uncoerced — even if caused.
+- [pro-RIGHT] FULL: 'She could have done otherwise' means 'she would have, had she wanted to' — not that the past left alternatives open.
+  - SHORT: 'Could have done otherwise' means 'would have, had she wanted to'.
+- [pro-LEFT] FULL: Responsibility requires being the ultimate source of your actions, not merely the conduit through which prior causes flow.
+  - SHORT: Responsibility needs you as ultimate source, not a conduit of causes.
+- [pro-LEFT] FULL: Whether an act is free depends on agent-causation — the agent as irreducible originator — which no neural history could capture.
+  - SHORT: Free acts need agent-causation — the agent as irreducible originator.
+- [pro-RIGHT] FULL: An agent whose every decision is in principle predictable from prior states can still be fully free and accountable.
+  - SHORT: A fully predictable agent can still be free and accountable.
+- [pro-RIGHT] FULL: Once 'free' is understood as 'uncoerced and responsive to reasons' rather than 'uncaused', the traditional problem dissolves.
+  - SHORT: Read 'free' as 'uncoerced and reason-responsive' and the problem dissolves.
 
 ### Naturalism <-> Theism (axis 13, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Every observed phenomenon — from stars to minds — is in principle explicable through natural causes, with no divine agency required.
-- [pro-LEFT] The predictive success of physics, chemistry, and biology leaves no phenomena for which 'God did it' remains the best explanation.
-- [pro-RIGHT] That there is something rather than nothing — a contingent universe at all — is best explained by a necessarily existing divine mind.
-- [pro-RIGHT] Objective moral authority ('you must not, period') is intelligible as the command of a perfectly good God, but mysterious on bare naturalism.
-- [pro-LEFT] Consciousness and morality, however puzzling now, are the kind of problems natural inquiry has repeatedly solved — supernatural posits are premature.
-- [pro-LEFT] Explaining the universe by a mind vastly more complex than what it explains trades one mystery for a greater one.
-- [pro-RIGHT] That the universe's constants fall within the narrow life-permitting range cries out for explanation, and cosmic design is the leading candidate.
-- [pro-RIGHT] Widely reported religious experiences — luminous, noetic, transformative — constitute genuine (if defeasible) evidence for a transcendent reality.
+- [pro-LEFT] FULL: Every observed phenomenon — from stars to minds — is in principle explicable through natural causes, with no divine agency required.
+  - SHORT: Everything, minds included, is explicable through natural causes alone.
+- [pro-LEFT] FULL: The predictive success of physics, chemistry, and biology leaves no phenomena for which 'God did it' remains the best explanation.
+  - SHORT: Science's success leaves no phenomena for 'God did it'.
+- [pro-RIGHT] FULL: That there is something rather than nothing — a contingent universe at all — is best explained by a necessarily existing divine mind.
+  - SHORT: Why anything exists is best explained by a necessary divine mind.
+- [pro-RIGHT] FULL: Objective moral authority ('you must not, period') is intelligible as the command of a perfectly good God, but mysterious on bare naturalism.
+  - SHORT: Objective moral authority makes sense as God's command, not bare nature.
+- [pro-LEFT] FULL: Consciousness and morality, however puzzling now, are the kind of problems natural inquiry has repeatedly solved — supernatural posits are premature.
+  - SHORT: Natural inquiry keeps solving such puzzles; supernatural posits are premature.
+- [pro-LEFT] FULL: Explaining the universe by a mind vastly more complex than what it explains trades one mystery for a greater one.
+  - SHORT: A mind more complex than the universe trades mystery for greater mystery.
+- [pro-RIGHT] FULL: That the universe's constants fall within the narrow life-permitting range cries out for explanation, and cosmic design is the leading candidate.
+  - SHORT: Life-permitting constants cry out for explanation; design leads.
+- [pro-RIGHT] FULL: Widely reported religious experiences — luminous, noetic, transformative — constitute genuine (if defeasible) evidence for a transcendent reality.
+  - SHORT: Religious experiences are genuine evidence for transcendence.
 
 ### Internalism <-> Externalism (axis 14, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Justification requires access: if nothing available to your reflection favors your belief over alternatives, you are unjustified — however reliable the source.
-- [pro-LEFT] A true belief produced by a reliable faculty you know nothing about (a clairvoyant hunch) is lucky guesswork, not knowledge.
-- [pro-RIGHT] A belief formed by a properly functioning, truth-tracking faculty can be knowledge even when you cannot cite any supporting reasons.
-- [pro-RIGHT] Ordinary perceptual knowledge ('there's a cup') needs no internal argument — well-functioning vision suffices.
-- [pro-LEFT] What justifies supervenes on your perspective: twins with identical experiences and reasoning are equally justified, whatever their environments.
-- [pro-LEFT] When challenged ('how do you know?'), coming up empty shows the belief was never justified — justification answers to reflection.
-- [pro-RIGHT] Pre-linguistic children and non-human animals plainly know where food is, though they grasp no reasons — so reasons cannot be required.
-- [pro-RIGHT] Epistemology's central question is whether a process tracks truth across relevant cases — internal access is neither necessary nor sufficient.
+- [pro-LEFT] FULL: Justification requires access: if nothing available to your reflection favors your belief over alternatives, you are unjustified — however reliable the source.
+  - SHORT: Justification needs accessible reasons — reliability without access won't do.
+- [pro-LEFT] FULL: A true belief produced by a reliable faculty you know nothing about (a clairvoyant hunch) is lucky guesswork, not knowledge.
+  - SHORT: A true hunch from an unknown faculty is luck, not knowledge.
+- [pro-RIGHT] FULL: A belief formed by a properly functioning, truth-tracking faculty can be knowledge even when you cannot cite any supporting reasons.
+  - SHORT: Reliable faculties yield knowledge even when you can't cite reasons.
+- [pro-RIGHT] FULL: Ordinary perceptual knowledge ('there's a cup') needs no internal argument — well-functioning vision suffices.
+  - SHORT: Well-functioning vision gives knowledge with no internal argument.
+- [pro-LEFT] FULL: What justifies supervenes on your perspective: twins with identical experiences and reasoning are equally justified, whatever their environments.
+  - SHORT: Experiential twins are equally justified, whatever their environments.
+- [pro-LEFT] FULL: When challenged ('how do you know?'), coming up empty shows the belief was never justified — justification answers to reflection.
+  - SHORT: Coming up empty on 'how do you know?' shows you never knew.
+- [pro-RIGHT] FULL: Pre-linguistic children and non-human animals plainly know where food is, though they grasp no reasons — so reasons cannot be required.
+  - SHORT: Children and animals know where food is without grasping reasons.
+- [pro-RIGHT] FULL: Epistemology's central question is whether a process tracks truth across relevant cases — internal access is neither necessary nor sufficient.
+  - SHORT: What matters is truth-tracking across cases, not internal access.
 
 ### Endurantism <-> Perdurantism (axis 15, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] You — the whole person, not a momentary slice — are fully present right now, just as you were fully present yesterday.
-- [pro-LEFT] Persistence is endurance: one and the same object exists at different times, rather than different temporal parts existing at each.
-- [pro-RIGHT] A persisting apple is spread through time the way a road is spread through space: Monday's slice differs from Friday's, and both are parts.
-- [pro-RIGHT] Persons are four-dimensional worms: each momentary 'you-stage' is a part, related to earlier stages as your hand relates to your arm.
-- [pro-LEFT] Change is the same enduring thing gaining and losing properties (green, then red) — not different temporal parts having different ones.
-- [pro-LEFT] Temporal parts are ontological double-counting: we already have the apple; adding 'apple-at-t' slices multiplies entities without need.
-- [pro-RIGHT] Relativity undermines endurance: since simultaneity is frame-relative, there is no single 'wholly present' moment for an extended object.
-- [pro-RIGHT] Taking objects as four-dimensional volumes in spacetime best accounts for motion, fission puzzles, and relativistic physics.
+- [pro-LEFT] FULL: You — the whole person, not a momentary slice — are fully present right now, just as you were fully present yesterday.
+  - SHORT: You — the whole person — are fully present right now.
+- [pro-LEFT] FULL: Persistence is endurance: one and the same object exists at different times, rather than different temporal parts existing at each.
+  - SHORT: One and the same object exists at different times — no temporal parts.
+- [pro-RIGHT] FULL: A persisting apple is spread through time the way a road is spread through space: Monday's slice differs from Friday's, and both are parts.
+  - SHORT: An apple spreads through time like a road through space: slices are parts.
+- [pro-RIGHT] FULL: Persons are four-dimensional worms: each momentary 'you-stage' is a part, related to earlier stages as your hand relates to your arm.
+  - SHORT: Persons are spacetime worms; each 'you-stage' is a part.
+- [pro-LEFT] FULL: Change is the same enduring thing gaining and losing properties (green, then red) — not different temporal parts having different ones.
+  - SHORT: Change is one thing gaining and losing properties — not different parts.
+- [pro-LEFT] FULL: Temporal parts are ontological double-counting: we already have the apple; adding 'apple-at-t' slices multiplies entities without need.
+  - SHORT: Temporal parts double-count: the apple suffices without 'apple-at-t' slices.
+- [pro-RIGHT] FULL: Relativity undermines endurance: since simultaneity is frame-relative, there is no single 'wholly present' moment for an extended object.
+  - SHORT: Frame-relative simultaneity leaves endurance no 'wholly present' moment.
+- [pro-RIGHT] FULL: Taking objects as four-dimensional volumes in spacetime best accounts for motion, fission puzzles, and relativistic physics.
+  - SHORT: Four-dimensional objects best explain motion, fission, and relativity.
 
 ### Progress Optimism <-> Progress Pessimism (axis 16, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Logic, semantics, and parts of metaphysics now contain settled results (incompleteness, indexicals, causation) that future inquiry will preserve.
-- [pro-LEFT] Just as chemistry outgrew alchemy, today's philosophical confusions will look like primitive precursors once inquiry matures.
-- [pro-RIGHT] Our best past theories were confident and false (ether, epicycles, phlogiston) — inductive modesty says ours likely are too.
-- [pro-RIGHT] Centuries-long stalemates (free will, universals, the good) persist because the questions lack determinate answers, not because we are slow.
-- [pro-LEFT] Later theories do not merely replace earlier ones; they retain their successes while fixing failures — inquiry accumulates truth.
-- [pro-LEFT] Most classic problems (the nature of reference, knowledge, computation) will be solved by sustained inquiry, not dissolved as pseudo-problems.
-- [pro-RIGHT] What counts as evidence and rationality shifts with paradigms, so 'closer to the truth' is always framework-relative — never absolute.
-- [pro-RIGHT] Apparent novelty in philosophy is largely relabeling: Stoics, Scholastics, and analysts rehearse the same moves in fresh jargon.
+- [pro-LEFT] FULL: Logic, semantics, and parts of metaphysics now contain settled results (incompleteness, indexicals, causation) that future inquiry will preserve.
+  - SHORT: Some results (incompleteness, indexicals) are settled for good.
+- [pro-LEFT] FULL: Just as chemistry outgrew alchemy, today's philosophical confusions will look like primitive precursors once inquiry matures.
+  - SHORT: Today's confusions will look like alchemy to our descendants.
+- [pro-RIGHT] FULL: Our best past theories were confident and false (ether, epicycles, phlogiston) — inductive modesty says ours likely are too.
+  - SHORT: Past theories were confident and false — ours likely are too.
+- [pro-RIGHT] FULL: Centuries-long stalemates (free will, universals, the good) persist because the questions lack determinate answers, not because we are slow.
+  - SHORT: Centuries-long stalemates persist because the questions lack answers.
+- [pro-LEFT] FULL: Later theories do not merely replace earlier ones; they retain their successes while fixing failures — inquiry accumulates truth.
+  - SHORT: Later theories keep earlier successes while fixing failures — truth accumulates.
+- [pro-LEFT] FULL: Most classic problems (the nature of reference, knowledge, computation) will be solved by sustained inquiry, not dissolved as pseudo-problems.
+  - SHORT: Classic problems will be solved by inquiry, not dissolved.
+- [pro-RIGHT] FULL: What counts as evidence and rationality shifts with paradigms, so 'closer to the truth' is always framework-relative — never absolute.
+  - SHORT: 'Closer to truth' is always framework-relative — never absolute.
+- [pro-RIGHT] FULL: Apparent novelty in philosophy is largely relabeling: Stoics, Scholastics, and analysts rehearse the same moves in fresh jargon.
+  - SHORT: New philosophy mostly relabels old moves in fresh jargon.
 
 ### Math Platonism <-> Formalism (axis 17, 8 items, polarity balanced 4/4)
 
-- [pro-LEFT] Prime numbers would have had exactly the properties they do even if no intelligent life had ever evolved to think about them.
-- [pro-LEFT] Set-theoretic truths (there is no largest cardinal) held before Cantor — indeed before minds — and were discovered, not stipulated.
-- [pro-RIGHT] Mathematics is rule-governed symbol manipulation: '2+2=4' records what the rules permit, not a fact about non-physical objects.
-- [pro-RIGHT] Talk of 'abstract objects' is a convenient fiction, like talk of 'the average taxpayer' — useful, but nothing answers to it.
-- [pro-LEFT] That mathematics describes physics with eerie precision (complex numbers in quantum theory) is best explained if mathematics maps a real domain.
-- [pro-LEFT] Actual infinities — infinite sets with determinate sizes — genuinely exist as abstracta, whether or not the physical world is infinite.
-- [pro-RIGHT] A mathematical sentence is true just in case it is derivable from the axioms of the system we have adopted — truth is intra-systemic.
-- [pro-RIGHT] Had evolution taken a different path our 'mathematics' would differ — and with no humans at all, no numbers would be left behind.
+- [pro-LEFT] FULL: Prime numbers would have had exactly the properties they do even if no intelligent life had ever evolved to think about them.
+  - SHORT: Primes had their properties before any mind existed.
+- [pro-LEFT] FULL: Set-theoretic truths (there is no largest cardinal) held before Cantor — indeed before minds — and were discovered, not stipulated.
+  - SHORT: No-largest-cardinal held before Cantor — discovered, not stipulated.
+- [pro-RIGHT] FULL: Mathematics is rule-governed symbol manipulation: '2+2=4' records what the rules permit, not a fact about non-physical objects.
+  - SHORT: Math is rule-governed symbol play: '2+2=4' records the rules.
+- [pro-RIGHT] FULL: Talk of 'abstract objects' is a convenient fiction, like talk of 'the average taxpayer' — useful, but nothing answers to it.
+  - SHORT: 'Abstract objects' are fictions like 'the average taxpayer'.
+- [pro-LEFT] FULL: That mathematics describes physics with eerie precision (complex numbers in quantum theory) is best explained if mathematics maps a real domain.
+  - SHORT: Math's eerie fit with physics needs real mathematical objects.
+- [pro-LEFT] FULL: Actual infinities — infinite sets with determinate sizes — genuinely exist as abstracta, whether or not the physical world is infinite.
+  - SHORT: Actual infinities genuinely exist as abstracta.
+- [pro-RIGHT] FULL: A mathematical sentence is true just in case it is derivable from the axioms of the system we have adopted — truth is intra-systemic.
+  - SHORT: A math sentence is true iff derivable from adopted axioms.
+- [pro-RIGHT] FULL: Had evolution taken a different path our 'mathematics' would differ — and with no humans at all, no numbers would be left behind.
+  - SHORT: With no humans, no numbers would be left behind.
 
 ## 3. Philosopher profiles (119)
 
@@ -1225,7 +1369,8 @@ Rule: `() => true`
 ## 6. Method
 - Likert +2..-2 x polarity; left% = (sum +/- answer + 2n) / 4n x 100 per axis; neutral -> 50.
 - 8 items/axis, polarity balanced 4 pro-left / 4 pro-right.
+- Two wordings (concise default, full): same 144 items, order, axes, polarities — only phrasing differs.
 - Match: nearest neighbour by Euclidean distance over 18 dims -> similarity % = (1 - d/dmax)x100.
-- Share URL: ?v=3&s=18 comma values; v1 12-value URLs render with 6 new axes padded to 50.
-- PNG export: offline <canvas> render, no dependencies.
+- Share URL: ?v=4&m=short|full&s=18 comma values; older links (no m, or 12 values padded) render as full.
+- PNG export: offline <canvas> render, no dependencies; footer notes the wording used.
 - Schools: analytic, post-analytic, modern, ancient, medieval, continental, living (Rorty & MacIntyre = post-analytic).
