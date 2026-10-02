@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>18 Axes — Philosophical Orientation Quiz</title>
+<meta name="description" content="Find your philosophical orientation across 18 axes borrowed from analytic philosophy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>❦ 18 Axes <span class="subtitle">· Philosophical Orientation</span></h1>
+    <button id="btn-theme" class="btn btn-ghost btn-small">☀ Light</button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- LANDING -->
+  <section id="view-landing" class="view">
+    <div class="card hero">
+      <div class="hero-grid">
+        <div class="hero-main">
+          <p class="kicker">Analytic philosophy · self-portrait</p>
+          <h2>What kind of philosopher are you?</h2>
+          <p id="quiz-meta" class="meta"></p>
+          <p class="lede">Answer the statements honestly — there are no right answers.
+             You'll get a score per axis, an archetype, your closest philosophers
+             (with <em>why</em> they match), and a reading list.</p>
+          <div class="row">
+            <button id="btn-start" class="btn btn-primary">Start the Quiz</button>
+            <button id="btn-resume" class="btn hidden">Resume</button>
+          </div>
+          <p class="hint">No account. No tracking. Progress autosaves in your browser; results live in a shareable link.</p>
+        </div>
+        <div class="hero-side">
+          <div class="stat"><span class="stat-n">144</span><span class="stat-l">questions</span></div>
+          <div class="stat"><span class="stat-n">18</span><span class="stat-l">axes</span></div>
+          <div class="stat"><span class="stat-n" id="stat-thinkers">119</span><span class="stat-l">thinkers</span></div>
+        </div>
+      </div>
+      <details class="method">
+        <summary>Methodology &amp; sources</summary>
+        <p>Each axis is scored <code>left% = (Σ ± answer + 2n) / 4n × 100</code> over
+           balanced-pro-polarity Likert items (+2…−2). Philosopher match is nearest
+           neighbour by Euclidean distance over all axes, converted to a similarity %.
+           Vectors are approximate portraits — disputable, for fun.
+           Full documentation (axes, all questions, every philosopher profile,
+           archetypes, method) lives in <code>PHILOSOPHY.md</code> in the repo.</p>
+      </details>
+    </div>
+    <div class="card">
+      <div class="section-head">
+        <h3>The 18 axes</h3>
+        <p class="hint">Hover or tap a card for its guiding question.</p>
+      </div>
+      <div id="axis-preview" class="axis-grid"></div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="view-quiz" class="view hidden">
+    <div class="card quiz-card">
+      <div class="progress-row">
+        <span id="q-counter">Question 1/144</span>
+        <div class="progress-track"><div id="q-progress" class="progress-fill"></div></div>
+        <span id="q-pct" class="q-pct">0%</span>
+      </div>
+      <p id="q-axis" class="q-axis"></p>
+      <p id="q-text" class="q-text"></p>
+      <div class="axis-vote" role="radiogroup" aria-label="Your stance">
+        <div class="axis-vote-track" aria-hidden="true"><div class="axis-vote-tick" aria-hidden="true"></div></div>
+        <button class="axis-dot lvl--2" data-val="-2" role="radio" aria-label="Strongly disagree (1)">
+          <span class="dot"></span><span class="dot-label">Strongly Disagree</span><kbd>1</kbd>
+        </button>
+        <button class="axis-dot lvl--1" data-val="-1" role="radio" aria-label="Disagree (2)">
+          <span class="dot"></span><span class="dot-label">Disagree</span><kbd>2</kbd>
+        </button>
+        <button class="axis-dot lvl-0" data-val="0" role="radio" aria-label="Neutral or unsure (3)">
+          <span class="dot"></span><span class="dot-label">Neutral</span><kbd>3</kbd>
+        </button>
+        <button class="axis-dot lvl-1" data-val="1" role="radio" aria-label="Agree (4)">
+          <span class="dot"></span><span class="dot-label">Agree</span><kbd>4</kbd>
+        </button>
+        <button class="axis-dot lvl-2" data-val="2" role="radio" aria-label="Strongly agree (5)">
+          <span class="dot"></span><span class="dot-label">Strongly Agree</span><kbd>5</kbd>
+        </button>
+      </div>
+      <div class="quiz-foot">
+        <button id="btn-back" class="btn btn-ghost">← Back</button>
+        <span class="hint">Keys 1–5: disagree → agree · ← goes back</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="view-results" class="view hidden">
+    <div class="card results-card">
+      <div class="section-head split">
+        <h2>Your Results</h2>
+        <span id="results-summary" class="hint"></span>
+      </div>
+      <div class="results-top">
+        <div id="archetype-card" class="archetype"></div>
+        <div class="radar-card">
+          <div class="radar-wrap"><canvas id="radar" width="340" height="340"></canvas></div>
+          <p class="hint radar-cap">18-axis profile · outer ring = pole commitment</p>
+        </div>
+      </div>
+      <h3>Axes <span class="hint-inline">— click a card to pin its question</span></h3>
+      <div id="bars" class="bars-grid"></div>
+      <h3>Closest philosophers</h3>
+      <div id="school-chips" class="chips"></div>
+      <div id="phils" class="phils-grid"></div>
+      <div id="readings" class="readings"></div>
+      <div class="actions">
+        <button id="btn-png" class="btn btn-primary">⬇ PNG</button>
+        <button id="btn-copy" class="btn">Copy link</button>
+        <button id="btn-retake" class="btn btn-ghost">Retake</button>
+      </div>
+      <p id="copy-hint" class="hint"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>144 questions · 18 axes · analytic philosophy · portraits approximate &amp; disputable — see PHILOSOPHY.md</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="philosophers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
